@@ -5,8 +5,9 @@ const pkg = require('./package.json');
 const lib = require('.');
 
 const createVueApp = lib.createVueApp;
+const messages = lib.messages;
 
-let projectName
+let projectName;
 
 program
   .version(pkg.version, '-v, --version')
@@ -18,7 +19,7 @@ program
   .parse(process.argv);
 
 if (typeof projectName === 'undefined') {
-  console.error('error: project name is required.');
+  console.log(messages.missingProjectName());
   process.exit(1);
 }
 
