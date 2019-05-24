@@ -1,0 +1,18 @@
+{
+  "name": "create-vue-app",
+  "version": "0.1.0",
+  "description": "create-vue-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-vue-app": "./cli.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0"
+  }
+}
