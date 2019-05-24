@@ -2,6 +2,9 @@
 
 const program = require('commander');
 const pkg = require('./package.json');
+const lib = require('.');
+
+const createVueApp = lib.createVueApp;
 
 let projectName
 
@@ -19,4 +22,4 @@ if (typeof projectName === 'undefined') {
   process.exit(1);
 }
 
-console.log(projectName, 'projectName');
+createVueApp({ projectName });

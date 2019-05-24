@@ -1,5 +1,5 @@
-const chalk = require('chalk');
-const log = console.log;
+const createVueApp = require('./lib');
 
-// Combine styled and normal strings
-log(chalk.blue('Hello') + ' World' + chalk.red('!'));
+module.exports = {
+  createVueApp: createVueApp,
+}
