@@ -1,6 +1,6 @@
 {
   "name": "create-vue-app",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "create-vue-app",
   "main": "index.js",
   "scripts": {
