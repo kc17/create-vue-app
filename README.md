@@ -1,4 +1,4 @@
-Create Vue App
+# Create Vue App
 
 > Create a Vue project in seconds
 
