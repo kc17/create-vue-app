@@ -1,6 +1,6 @@
 # Create Vue App
 
-> Create a Vue project in seconds
+> Create Vue apps in one command
 
 ## Install
 

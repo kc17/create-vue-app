@@ -1,7 +1,7 @@
 {
   "name": "create-vue-app",
   "version": "0.1.2",
-  "description": "create-vue-app",
+  "description": "create vue apps in one command",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
