@@ -1,6 +1,6 @@
 <script>
-import SimpleView from '@/components/pages/Muitl/SimpleView';
-import ComplexView from '@/components/pages/Muitl/ComplexView';
+import SimpleView from '@/components/pages/muitl/SimpleView';
+import ComplexView from '@/components/pages/muitl/ComplexView';
 import NotFound from '@/pages/notfound';
 
 export default {
