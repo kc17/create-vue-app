@@ -1,6 +1,7 @@
 <script>
 import SimpleView from '@/components/pages/Muitl/SimpleView';
 import ComplexView from '@/components/pages/Muitl/ComplexView';
+import NotFound from '@/pages/notfound';
 
 export default {
   data() {
@@ -28,7 +29,7 @@ export default {
 
     if (this.view === 'SimpleView') return <SimpleView {...props} />;
     if (this.view === 'ComplexView') return <ComplexView {...props} />;
-    return <div>404</div>;
+    return <NotFound />;
   }
 }
 </script>
