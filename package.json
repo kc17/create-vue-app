@@ -1,6 +1,6 @@
 {
   "name": "create-vue-app",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "create vue apps in one command",
   "main": "index.js",
   "scripts": {

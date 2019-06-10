@@ -37,7 +37,13 @@
           "allowFirstLine": false
         }
       }],
-      "no-param-reassign": [2, { "props": false }]
+      "semi": ["error", "always"],
+      "no-param-reassign": ["error", { "props": false }],
+      "quotes": ["error", "single"],
+      "comma-dangle": ["error", "only-multiline"],
+      "import/extensions": "off",
+      "no-shadow": "off",
+      "linebreak-style": "off"
     },
     "parserOptions": {
       "parser": "babel-eslint"
