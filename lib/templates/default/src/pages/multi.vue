@@ -7,7 +7,7 @@ export default {
   data() {
     return {
       view: 'SimpleView'
-    }
+    };
   },
 
   methods: {
@@ -31,5 +31,5 @@ export default {
     if (this.view === 'ComplexView') return <ComplexView {...props} />;
     return <NotFound />;
   }
-}
+};
 </script>
