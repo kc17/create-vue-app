@@ -20,6 +20,7 @@
     "quotes": ["error", "single"],
     "comma-dangle": ["error", "only-multiline"],
     "import/extensions": "off",
+    "import/no-unresolved": "off",
     "no-shadow": "off",
     "linebreak-style": "off"
   },
